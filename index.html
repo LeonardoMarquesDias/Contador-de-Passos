@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contador de Passos</title>
+</head>
+<body>
+  
+  <header>
+    <h1>Vamos contar</h1>
+  </header>
+
+  <div class="wrap">
+    <section>
+      
+        <div class="content">
+          <p>Inicio: <input type="number" name="txtinit" id="init"></p>
+          <br />
+          <p>Fim: <input type="number" name="txtend" id="end"></p>
+          <br />
+          <p>Passo: <input type="number" name="txtpass" id="pass"></p>
+          <br />
+  
+          <button type="button" value="Contar" onclick="contar()"> Contar</button>
+
+          <p id="res">
+            Preparando a contagem...
+          </p>
+        </div>
+    
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

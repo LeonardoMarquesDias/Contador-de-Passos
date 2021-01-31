@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+ text-align: center;
+ padding: 30px;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  border-radius: 20px;
+  border: 5px solid black;
+  background-color: rgb(118, 212, 255);
+}
+
+.content {
+  padding: 30px 10px;
+}
+#res {
+  padding: 20px 0px;
+}
+
